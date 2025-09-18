@@ -37,7 +37,7 @@ jobs:
           sed -i.bak "s/^version:.*/version: $VERSION_NAME+$VERSION_CODE/" pubspec.yaml
 
       # Build APKs (split per ABI)
-      - run: flutter build apk --release --split-per-abi
+      # - run: flutter build apk --release --split-per-abi
 
       # Build Android App Bundle (.aab)
       - run: flutter build appbundle --release
