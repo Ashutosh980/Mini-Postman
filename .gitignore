@@ -29,3 +29,7 @@ ios/Runner/GeneratedPluginRegistrant.*
 # IntelliJ
 *.iml
 .idea/
+
+
+*.jks
+key.properties
